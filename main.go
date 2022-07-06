@@ -11,7 +11,7 @@ import (
 func main() {
 
 	pref, err := tele.NewBot(tele.Settings{
-		Token:  "5318452424:AAGkMAJLOyjVQZRM4WRL7kx7CHbkhuHNZxU",
+		Token:  "",
 		Poller: &tele.LongPoller{Timeout: 10 * time.Second},
 	})
 	if err != nil {
