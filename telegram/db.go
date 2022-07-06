@@ -12,8 +12,8 @@ const (
 	host     = "localhost"
 	port     = 5432
 	user     = "postgres"
-	password = "9880"
-	dbname   = "telegrambot"
+	password = ""
+	dbname   = ""
 )
 
 var cafe string
